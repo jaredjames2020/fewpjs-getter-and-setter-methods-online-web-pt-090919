@@ -16,4 +16,6 @@ class Circle{
     return Math.PI * (this.radius * this.radius)
   }
   
+  set radius
+  
 }
