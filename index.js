@@ -17,8 +17,8 @@ class Circle{
   }
   
   set diameter(diameter){
-    this.radius = this.diameter / 2;
-  }
-  
+        this.radius = diameter / 2
+    }
+
   
 }
