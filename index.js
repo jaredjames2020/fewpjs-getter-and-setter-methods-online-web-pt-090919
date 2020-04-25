@@ -16,8 +16,8 @@ class Circle{
     return Math.PI * (this.radius * this.radius);
   }
   
-  set diameter(radius){
-    this._radius = radius * 2;
+  set diameter(diameter){
+    this._radius = this.diameter / 2;
   }
   
   
